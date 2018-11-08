@@ -39,8 +39,9 @@ console.log(var2)
 
 OH NO! an error! What happened?
 
-We created var2 within the scope of the if() {} code block. In other words, the variable
-"lives" within this code block and can only be accessed within.
+We created var2 within the scope of the if() code block (which encompasses everything
+in the curly braces {}). In other words, the variable "lives" within this code block
+and can only be accessed within.
 
 ```
 if (true) {
@@ -48,3 +49,5 @@ if (true) {
   console.log(var2)
 }
 ```
+
+So we can access var2 from WITHIN the if() code block.
