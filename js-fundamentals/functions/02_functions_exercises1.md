@@ -56,3 +56,17 @@ i.e. netIncomeGenerator(250,000) // => "You paid 87500 in taxes this year. Your 
 i.e. pigLatin("apple") // => "appleay"
      pigLatin("hello") // => "ellohay"
 ```
+
+9. Define a function isEven that takes in a number argument, and returns true if it is even and false if it is odd.
+
+```
+isEven(2) // => true
+isEven(3) // => false
+```
+
+10. Define a function isMultiple that takes in two number argumets, and checks to see if the second number is a multiple of the first number. It should return a boolean value.
+
+```
+isMultiple(5, 25) // => true
+isMultiple(5, 26) // => false
+```
