@@ -21,6 +21,8 @@ variables so far.
 However, when variables are created, they cannot necessarily be accessed from anywhere
 in the Javascript file!
 
+<hr>
+
 Previously when we've created variables, they've always existed in the *global* scope.
 Variables that are created in the global scope can be accessed anywhere.
 
@@ -51,3 +53,9 @@ if (true) {
 ```
 
 So we can access var2 from WITHIN the if() code block.
+
+This means that var2 exists within the *local* scope and can be accessed only
+locally from within the code block it was created.
+
+Note that from within the code block, we were able to access var1. This is because
+in a scope, you can access variables defined in that scope, or in any parent scope.
