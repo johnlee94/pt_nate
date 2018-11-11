@@ -70,3 +70,23 @@ isEven(3) // => false
 isMultiple(5, 25) // => true
 isMultiple(5, 26) // => false
 ```
+
+11. Define a function caloriesBurned that takes in 3 number arguments (jogging, cycling, and weight training each in minutes) and returns the total calories burned. If an exercise is not done (an argument is not passed, default it to a value of 0)
+<ul>
+<li>Jogging: 20 per minute</li>
+<li>Cycling: 10 per minute</li>
+<li>Weight Training: 15 per minute</li>
+</ul>
+
+```
+caloriesBurned(30, 20, 0) //=> 800
+```
+
+**CHALLENGE!!**
+
+12. Define a function totalWages that takes in 3 arguments (wage per hour, total hours worked, and bonus) and returns total wages earned in a week. Note that for overtime hours, one receives 1.5x the normal wage (Overhours are any hours over 40 hours worked in a week). Also note that if a bonus is not received that week, it should default to 0!
+
+```
+totalWages(10, 50, 500) // => 1050
+// 50 hours worked this week at $10/hr, with an overtime of 10 hours and a bonus of 500.
+```
