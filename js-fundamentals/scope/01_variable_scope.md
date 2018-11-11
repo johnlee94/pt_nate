@@ -108,10 +108,12 @@ if(true) {
 In the code block above, I've made four variables, each instantiated in a different scope...
 
 It can be outlined such as:
+```
 // GLOBAL SCOPE (A)
   //LOCAL SCOPE (B)
     //LOCAL SCOPE (C)
   //LOCAL SCOPE (D)
+```
 
 1. Match each variable to the proper scope.
 
