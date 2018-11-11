@@ -45,6 +45,7 @@ i.e. calculator(5, 5, "add") // => 10
 <li>$100,000 - $199,999 : 30%</li>
 <li>$200,000+ : 35%</li>
 </ul>
+
 ```
 i.e. netIncomeGenerator(250,000) // => "You paid 87500 in taxes this year. Your net income is 162500."
 ```
