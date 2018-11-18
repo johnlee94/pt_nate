@@ -5,7 +5,7 @@ YEAH YEAH!! Arrays are perhaps the most commonly used object in the Javascript l
 
 They look something like this:
 ```
-grocery_list = ['eggs', 'milk', 'flour', 'rice']
+let grocery_list = ['eggs', 'milk', 'flour', 'rice']
 ```
 
 Arrays are a built in object prototype in Javascript (more on what that actually means later),
@@ -13,7 +13,7 @@ but simply put, they come with the language!
 
 They can hold pretty much any JS primitive datatype or other objects (like another array!)
 ```
-myArray = [12, 'something', true, null, ['another array!', 'wow']]
+let myArray = [12, 'something', true, null, ['another array!', 'wow']]
 ```
 
 Arrays, much like a JS datatype we have already studied, are sequentially significant and
@@ -31,7 +31,7 @@ In strings, each character had an INDEX or position that made up the string (sta
 
 Arrays work much in the same way...
 ```
-grocery_list = ['eggs', 'milk', 'flour', 'rice']
+let grocery_list = ['eggs', 'milk', 'flour', 'rice']
 
 console.log(grocery_list[0]) //=> 'eggs'
 ```
@@ -72,4 +72,4 @@ If we have a superrrrr loooong list, this method is useful for grabbing the last
 
 3. Check to see that your hobbies array does indeed have 5 elements by console logging the length or your array.
 
-4. Console log the 4th element in your array by using the array length property. 
+4. Console log the 4th element in your array by using the array length property.
