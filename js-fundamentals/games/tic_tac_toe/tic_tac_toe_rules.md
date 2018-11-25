@@ -13,5 +13,3 @@ But here are the requirments for our game:
 <li>The Board should be printed out every time a player makes a move</li>
 <li>You should be able to accept a player input by number position and then place the symbol on the board</li>
 <ul>
-
-YAY
