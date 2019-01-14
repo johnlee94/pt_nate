@@ -16,6 +16,14 @@ Let's go over the concepts we have learned thus far!
 
 5. Make a variable called myName and set it equal to the string value of your name.
 
+6. Write the general syntax of creating a Javascript function that takes in 2 arguments.
+Then call it.
+
+7. What is the difference between null and undefined?
+
+8. In your own words, describe "scope" as it is related to Javascript.
+
+
 # STRINGS
 
 Given
@@ -136,6 +144,12 @@ arr = ["hello", 5, ["another nested array", 10], 15]
 2. Add an element value of "hi" to the end of arr.
 3. Change the element value of arr at the 1st index to be "bye".
 4. Remove the last element from the array.
+
+Write a function that takes in 3 parameters: an array, an element value, and a number; that takes the element value and adds it to the given array parameter as many times as the number value.
+
+```
+addTimes([1, 2, 3], "hello", 3) // => [1, 2, 3, "hello", "hello", "hello"]
+```
 
 Make a function that takes in an array of any given numbers, and returns a new array of the given numbers, but that contains only unique values.
 
