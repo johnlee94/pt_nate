@@ -173,3 +173,14 @@ Make a function that counts the number of times a word appears in an array of st
 ```
 howManyTimes(["hello", "my", "name", "is", "John", "hello", "hello"], "hello") // => 3
 ```
+
+
+# OBJECTS
+1. Write in your own words what an object is in Javascript.
+2. Write the general syntax for creating an object.
+3. Create an object that describes your school. Include the name, city, yearFounded, and mascot as properties.
+
+Create a function method inside your school object that returns a string sentence describing the school.
+```
+mySchool.getDetails() // => "My school, Sunny Hills High School, was founded in 1955. It is located in the city of Fullerton and proudly represents Lancers, its mascot."
+```
